@@ -336,21 +336,20 @@ button {
 }
 
 .cont-hr {
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: #F9FBF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FBF2;
 }
 
 .hr {
-width: 70%;
-border: solid 2px #25291C;
-margin: 90px 0 25px 0;
-background-color: #25291C;
+    width: 70%;
+    border: solid 2px #25291C;
+    margin: 90px 0 25px 0;
+    background-color: #25291C;
 }
 
 .cont-footer {
-    height: 200px;
     background-color: #F9FBF2;
     display: flex;
     justify-content: center;
@@ -359,7 +358,7 @@ background-color: #25291C;
 .caja-footer {
     width: 70%;
     display: flex;
-    
+
 }
 
 .parte-uno {
@@ -382,4 +381,15 @@ background-color: #25291C;
 
 .parte-cuatro {
     width: 25%;
+}
+
+.cont-final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FBF2;
+}
+
+.final {
+    margin: 25px 0 25px 0;
 }
