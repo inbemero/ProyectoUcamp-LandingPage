@@ -83,10 +83,6 @@ body {
     font-size: 35px;
 }
 
-.desc-uno {
-    font-size: 20px;
-}
-
 .input-uno {
     border: solid 2px #F9FBF2;
     border-radius: 3px;
@@ -111,15 +107,14 @@ button {
 
 .cont-main-dos {
     display: grid;
-    grid-template: 200px 350px / 50% 50%;
+    grid-template: 150px auto 300px / auto;
     background-color: #E6AF09;
 }
 
 .sec-uno {
     text-align: center;
-    padding: auto;
     margin: auto;
-    font-size: 22.5px;
+    font-size: 17px;
 }
 
 .frase-uno {
@@ -130,7 +125,7 @@ button {
 }
 
 .sec-dos {
-    grid-row: span 2;
+    grid-row: span 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,7 +133,7 @@ button {
 
 .info-uno {
     width: 75%;
-    height: 550px;
+    height: 450px;
     padding: 25px;
     background-color: #25291C;
     color: #F9FBF2;
@@ -149,6 +144,7 @@ button {
     align-items: center;
     z-index: 1;
     box-shadow: 7px 7px 3px black;
+    margin-bottom: 50px;
 }
 
 .sec-tres {
@@ -167,16 +163,14 @@ button {
 
 .frase-dos {
     width: auto;
-    height: 115px;
     background-color: #9B2915;
     align-items: flex-end;
     display: flex;
     justify-content: center;
-    flex-grow: 1;
-    font-size: 18px;
+    font-size: 17px;
     color: #F9FBF2;
     text-align: center;
-    padding-bottom: 30px;
+    padding: 30px 20px 30px 20px;
 }
 
 .titulo-tres {
@@ -184,26 +178,28 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100px;
     flex-grow: 1;
     background-color: #F9FBF2;
-    font-size: 25px;
-    padding-top: 45px;
+    font-size: 18px;
+    padding-top: 70px;
+    padding-bottom: 40px;
 }
 
 .cont-cartas {
     display: flex;
     justify-content: space-around;
-    height: 750px;
-    background-color: #F9FBF2;
+    flex-direction: column;
     align-items: center;
+    background-color: #F9FBF2;
+    padding-bottom: 70px;
 }
 
 .carta-uno {
     display: flex;
     flex-direction: column;
-    width: 20%;
-    height: 500px;
+    width: 70%;
+    height: 30%;
+    margin-bottom: 40px;
     border-radius: 25px;
     justify-content: space-between;
     background-color: white;
@@ -236,8 +232,9 @@ button {
 .carta-dos {
     display: flex;
     flex-direction: column;
-    width: 20%;
-    height: 500px;
+    width: 70%;
+    height: 30%;
+    margin-bottom: 40px;
     border-radius: 25px;
     justify-content: space-between;
     background-color: white;
@@ -270,8 +267,8 @@ button {
 .carta-tres {
     display: flex;
     flex-direction: column;
-    width: 20%;
-    height: 500px;
+    width: 70%;
+    height: 30%;
     border-radius: 25px;
     justify-content: space-between;
     background-color: white;
@@ -303,7 +300,6 @@ button {
 
 .cont-info {
     display: flex;
-    height: 600px;
     background-color: #F9FBF2;
 }
 
@@ -314,7 +310,7 @@ button {
 }
 
 .info-dos {
-    width: 60%;
+    width: 80%;
 }
 
 .sub-info {
@@ -356,31 +352,15 @@ button {
 }
 
 .caja-footer {
-    width: 70%;
+    width: 90%;
     display: flex;
-
-}
-
-.parte-uno {
-    width: 25%;
+    justify-content: space-around;
 }
 
 .foot-uno {
     text-decoration: none;
     color: #000000;
     list-style: none;
-}
-
-.parte-dos {
-    width: 25%;
-}
-
-.parte-tres {
-    width: 25%;
-}
-
-.parte-cuatro {
-    width: 25%;
 }
 
 .cont-final {
