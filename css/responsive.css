@@ -1,4 +1,8 @@
 @media only screen and (min-width: 0px) {
+    .navegador {
+        font-size: 17px;
+        font-weight: lighter;
+    }
     .contenedor-logo {
         flex-basis: 50%;
     }
@@ -11,16 +15,52 @@
         display: none;
     }
 
+    .cont-boton-nav {
+        display: flex;
+        flex-basis: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boton-nav {
+        background-color: #25291C;
+        color: #F9FBF2;
+        border-radius: 10px;
+        height: 30px;
+        width: 30px;
+        font-size: 25px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: .3s ease all;
+    }
+
+    .boton-nav:hover {
+        background-color: #F9FBF2;
+        color: #25291C;
+        box-shadow: 1px 1px 2px #E6AF09;
+    }
+
     .section-uno {
-        margin: 155px 30px 155px 30px;
+        margin: 100px 30px 100px 30px;
     }
 
     .titulo {
-        font-size: 22px;
+        font-size: 28px;
+    }
+
+    .input-uno {
+        margin: 30px 0 15px 0;
+    }
+
+    .input-dos {
+        margin-bottom: 15px;
     }
 
     .desc-uno {
-        font-size: 16px;
+        font-size: 17px;
     }
 
     .frase-uno {
@@ -32,6 +72,10 @@
 
     .desc-uno {
         font-size: 18px;
+    }
+
+    .input-uno {
+        width: 300px;
     }
 }
 
@@ -48,12 +92,24 @@
         display: flex;
     }
 
+    .cont-boton-nav {
+        display: none;
+    }
+
     .section-uno {
         margin: 130px 30px 130px 30px;
     }
 
     .titulo {
-        font-size: 35px;
+        font-size: 33px;
+    }
+
+    .input-uno {
+        margin: 20px 0 10px 0;
+    }
+
+    .input-dos {
+        margin-bottom: 0px;
     }
 
     .nav-uno {
@@ -63,9 +119,42 @@
     .sec-uno {
         font-size: 22.5px;
     }
+
+    .info-uno {
+        font-size: 17px;
+    }
+
+    .cont-info {
+        flex-direction: row;
+    }
+
+    .cont-contabilidad {
+        flex-basis: 50%;
+        height: auto;
+    }
+
+    .contabilidad {
+        background-size: contain;
+    }
+
+    .hr {
+        margin: 90px 0 25px 0;
+    }
+
+    .caja-footer {
+        flex-direction: row;
+    }
+
+    .part {
+        padding-top: 0px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
+    .navegador {
+        font-size: 20px;
+    }
+
     .desc-uno {
         font-size: 20px;
     }
@@ -85,6 +174,7 @@
     .info-uno {
         height: 550px;
         margin-bottom: 0;
+        font-size: 19px;
     }
 
     .nav-uno {
@@ -129,11 +219,28 @@
 }
 
 @media only screen and (min-width: 1400px) {
+    .titulo {
+        font-size: 39px;
+    }
+
+    .desc-uno {
+        font-size: 23px;
+    }
+
+    .info-uno {
+        font-size: 21px;
+    }
+
     .info-dos {
         width: 60%;
+        font-size: 18px;
     }
 
     .navegador {
-        font-size: 17px;
+        font-size: 21px;
+    }
+
+    .cont-cartas {
+        font-size: 19px;
     }
 }
