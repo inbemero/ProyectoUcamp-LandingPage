@@ -264,9 +264,10 @@ button:hover {
     background-size: cover;
 }
 
-.info-per-uno {
+.info-per {
     flex-basis: 50%;
     margin: 25px;
+    text-align: justify;
 }
 
 .carta-dos {
@@ -299,11 +300,6 @@ button:hover {
     background-size: cover;
 }
 
-.info-per-dos {
-    flex-basis: 50%;
-    margin: 25px;
-}
-
 .carta-tres {
     display: flex;
     flex-direction: column;
@@ -333,11 +329,6 @@ button:hover {
     background-size: cover;
 }
 
-.info-per-tres {
-    flex-basis: 50%;
-    margin: 25px;
-}
-
 .cont-info {
     display: flex;
     background-color: #F9FBF2;
@@ -352,6 +343,7 @@ button:hover {
 
 .info-dos {
     width: 80%;
+    text-align: justify;
 }
 
 .sub-info {
@@ -412,7 +404,6 @@ button:hover {
 
 .cont-icon {
     display: flex;
-    flex-direction: row-reverse;
 }
 
 .icon {
