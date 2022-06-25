@@ -103,23 +103,29 @@ body {
 
 .input-uno {
     border: solid 2px #F9FBF2;
-    border-radius: 3px;
+    border-radius: 20px;
     margin: 20px 0px 5px 0px;
-    padding: 4px;
+    padding: 9px;
     width: 225px;
 }
 
 .input-dos {
-    width: 16px;
-    height: 16px;
+    width: 21px;
+    height: 21px;
     margin-right: 5px;
+}
+
+.desc-dos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
     padding: 8px 11px;
     border-radius: 8px;
-    background-color:#E6AF09;
-    color: #25291C;
+    background-color: #25291C;
+    color: #E6AF09;
     margin-top: 10px;
     font-size: 16px;
     cursor: pointer;
@@ -127,8 +133,8 @@ button {
 }
 
 button:hover {
-    background-color: #25291C;
-    color: #E6AF09;
+    background-color: #E6AF09;
+    color: #25291C;
 }
 
 .cont-main-dos {

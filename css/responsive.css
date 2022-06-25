@@ -3,6 +3,7 @@
         font-size: 17px;
         font-weight: lighter;
     }
+
     .contenedor-logo {
         flex-basis: 50%;
     }
@@ -44,7 +45,7 @@
     }
 
     .section-uno {
-        margin: 100px 30px 100px 30px;
+        margin: 70px 30px 70px 30px;
     }
 
     .titulo {
@@ -53,10 +54,7 @@
 
     .input-uno {
         margin: 30px 0 15px 0;
-    }
-
-    .input-dos {
-        margin-bottom: 15px;
+        width: 250px;
     }
 
     .desc-uno {
@@ -66,16 +64,20 @@
     .frase-uno {
         margin: 0 25px 0 25px;
     }
+
+    .caja-footer {
+        width: 80%;
+    }
+
+    .cont-icon {
+        flex-direction: row;
+    }
 }
 
 @media only screen and (min-width: 425px) {
 
     .desc-uno {
         font-size: 18px;
-    }
-
-    .input-uno {
-        width: 300px;
     }
 }
 
@@ -143,10 +145,15 @@
 
     .caja-footer {
         flex-direction: row;
+        width: 90%;
     }
 
     .part {
         padding-top: 0px;
+    }
+
+    .cont-icon {
+        flex-direction: row-reverse;
     }
 }
 
